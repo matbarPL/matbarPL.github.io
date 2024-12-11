@@ -11,6 +11,10 @@ module.exports = {
       url: 'https://x.com/matbarPL',
     },
     {
+      name: 'RPubs',
+      url: 'https://rpubs.com/matbarPL',
+    },
+    {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/mateusz-baryla/',
     },
