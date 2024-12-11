@@ -6,6 +6,14 @@ module.exports = {
       name: 'GitHub',
       url: 'https://github.com/matbarPL',
     },
+    {
+      name: 'Twitter',
+      url: 'https://x.com/matbarPL',
+    },
+    {
+      name: 'Linkedin',
+      url: 'https://www.linkedin.com/in/mateusz-baryla/',
+    },
   ],
 
   navLinks: [
