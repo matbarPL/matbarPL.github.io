@@ -18,6 +18,10 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/mateusz-baryla/',
     },
+    {
+      name: 'GoodReads',
+      url: 'https://www.goodreads.com/matbarpl',
+    },
   ],
 
   navLinks: [
