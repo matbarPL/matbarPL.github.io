@@ -182,6 +182,7 @@ const Projects = () => {
               tech
               github
               youtube
+              rpubs
               external
             }
             html
@@ -214,7 +215,7 @@ const Projects = () => {
 
   const projectInner = node => {
     const { frontmatter, html } = node;
-    const { github, external, title, tech, youtube } = frontmatter;
+    const { github, external, title, tech, youtube, rpubs } = frontmatter;
 
     return (
       <div className="project-inner">
@@ -232,6 +233,11 @@ const Projects = () => {
               {youtube && (
                 <a href={youtube} aria-label="YouTube Link" target="_blank" rel="noreferrer">
                   <Icon name="YouTube" />
+                </a>
+              )}
+              {rpubs && (
+                <a href={rpubs} aria-label="RPubs Link" target="_blank" rel="noreferrer">
+                  <Icon name="RPubs" />
                 </a>
               )}
               {external && (

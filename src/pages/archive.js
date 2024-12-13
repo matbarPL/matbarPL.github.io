@@ -178,6 +178,7 @@ const ArchivePage = ({ location, data }) => {
                     tech,
                     company,
                     youtube,
+                    rpubs,
                   } = node.frontmatter;
                   return (
                     <tr key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -217,6 +218,11 @@ const ArchivePage = ({ location, data }) => {
                               <Icon name="YouTube" />
                             </a>
                           )}
+                          {rpubs && (
+                            <a href={rpubs} aria-label="RPubs Link">
+                              <Icon name="RPubs" />
+                            </a>
+                          )}
                         </div>
                       </td>
                     </tr>
@@ -252,6 +258,7 @@ export const pageQuery = graphql`
             external
             company
             youtube
+            rpubs
           }
           html
         }
