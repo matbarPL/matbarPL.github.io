@@ -8,13 +8,16 @@ import {
   IconFolder,
   IconFork,
   IconGitHub,
+  IconGoodReads,
   IconInstagram,
   IconLinkedin,
   IconLoader,
   IconLogo,
   IconPlayStore,
+  IconRPubs,
   IconStar,
   IconTwitter,
+  IconYouTube,
 } from '@components/icons';
 
 const Icon = ({ name }) => {
@@ -31,6 +34,8 @@ const Icon = ({ name }) => {
       return <IconFolder />;
     case 'Fork':
       return <IconFork />;
+    case 'GoodReads':
+      return <IconGoodReads />;
     case 'GitHub':
       return <IconGitHub />;
     case 'Instagram':
@@ -43,10 +48,14 @@ const Icon = ({ name }) => {
       return <IconLogo />;
     case 'PlayStore':
       return <IconPlayStore />;
+    case 'RPubs':
+      return <IconRPubs />;
     case 'Star':
       return <IconStar />;
     case 'Twitter':
       return <IconTwitter />;
+    case 'YouTube':
+      return <IconYouTube />;
     default:
       return <IconExternal />;
   }
