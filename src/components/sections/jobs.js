@@ -86,7 +86,7 @@ const StyledTabButton = styled.button`
   }
   @media (max-width: 600px) {
     ${({ theme }) => theme.mixins.flexCenter};
-    min-width: 120px;
+    min-width: 240px;
     padding: 0 15px;
     border-left: 0;
     border-bottom: 2px solid var(--lightest-navy);
@@ -175,10 +175,8 @@ const Jobs = () => {
           node {
             frontmatter {
               title
-              company
-              location
               range
-              url
+              expertise
             }
             html
           }
@@ -243,14 +241,14 @@ const Jobs = () => {
   };
 
   return (
-    <StyledJobsSection id="jobs" ref={revealContainer}>
-      <h2 className="numbered-heading">Where I’ve Worked</h2>
+    <StyledJobsSection id="tech-stack" ref={revealContainer}>
+      <h2 className="numbered-heading">My tech-stack </h2>
 
       <div className="inner">
-        <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyDown(e)}>
+        <StyledTabList role="tablist" aria-label="Tech stack" onKeyDown={e => onKeyDown(e)}>
           {jobsData &&
             jobsData.map(({ node }, i) => {
-              const { company } = node.frontmatter;
+              const { title } = node.frontmatter;
               return (
                 <StyledTabButton
                   key={i}
@@ -262,7 +260,7 @@ const Jobs = () => {
                   tabIndex={activeTabId === i ? '0' : '-1'}
                   aria-selected={activeTabId === i ? true : false}
                   aria-controls={`panel-${i}`}>
-                  <span>{company}</span>
+                  <span>{title}</span>
                 </StyledTabButton>
               );
             })}
@@ -273,7 +271,7 @@ const Jobs = () => {
           {jobsData &&
             jobsData.map(({ node }, i) => {
               const { frontmatter, html } = node;
-              const { title, url, company, range } = frontmatter;
+              const { title, range, expertise } = frontmatter;
 
               return (
                 <CSSTransition key={i} in={activeTabId === i} timeout={250} classNames="fade">
@@ -286,15 +284,11 @@ const Jobs = () => {
                     hidden={activeTabId !== i}>
                     <h3>
                       <span>{title}</span>
-                      <span className="company">
-                        &nbsp;@&nbsp;
-                        <a href={url} className="inline-link">
-                          {company}
-                        </a>
-                      </span>
                     </h3>
 
-                    <p className="range">{range}</p>
+                    <p className="range">
+                      since: {range} <span className="range"> | expertise: {expertise}</span>
+                    </p>
 
                     <div dangerouslySetInnerHTML={{ __html: html }} />
                   </StyledTabPanel>
