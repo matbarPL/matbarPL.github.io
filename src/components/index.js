@@ -13,4 +13,6 @@ export { default as Featured } from './sections/featured';
 export { default as Projects } from './sections/projects';
 export { default as Jobs } from './sections/jobs';
 export { default as Blog } from './sections/blog';
+export { default as Story } from './sections/story';
+export { default as StoryFooter } from './storyfooter';
 export { default as Contact } from './sections/contact';
