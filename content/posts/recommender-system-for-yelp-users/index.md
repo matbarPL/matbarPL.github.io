@@ -3,7 +3,7 @@ title: Recommender system for YELP users
 description: We built a web application to recommend businesses to YELP users, leveraging various algorithms for user selection.
 date: 2019-02-06
 draft: false
-slug: /pensieve/recommender-system-for-yelp-users
+slug: /blog/recommender-system-for-yelp-users
 tags:
   - recommender-systems
 ---
@@ -33,7 +33,7 @@ All recomendations are shown to a user based on his or her location (if the user
 App was designed in a web app architecture where all the data is stored on a server.
 
 ![app_architecture](./app_architecture.png)
-*source: https://www.scnsoft.com/blog/web-application-architecture* 
+*source: https://www.scnsoft.com/blog/web-application-architecture*
 
 Below you can find a video of the application.
 

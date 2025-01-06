@@ -3,7 +3,7 @@ title: A tool for opinion extraction from texts
 description: We created a web application to extract opinions from text using natural language processing techniques.
 date: 2020-06-30
 draft: false
-slug: /pensieve/stance-tagger-kedro
+slug: /blog/stance-tagger-kedro
 tags:
   - nlp
 ---
@@ -11,7 +11,7 @@ tags:
 Natural language processing and opinion mining plays important role in business
 analysis because of the data that is currently accessible in the Internet. Sentiment
 analysis is applied in every digitalized organization due to the fact of financial
-benefits that can came out of it. In my second bachelor's thesis I focused 
+benefits that can came out of it. In my second bachelor's thesis I focused
 on stance detection, and implementing this service in a form of web application.
 
 During the SemEval challenge in 2016 stance detection was popularized. The dataset provided there was used as a main data source to train machine learning models. The modern libraries such as Kedro or FastText were used in the app.
@@ -25,10 +25,10 @@ Kedro architecture distinguishes three building blocks:
 
 First of it is the project which contains key elements of each and single Kedro Project.
 
-All the datasets can be accessed in our project as soon as they are included in the configuration file which can be described as a registry of the datasets in use. The main idea of Kedro is to orchestrate the DE (data engineering) and DS (data science) pipeline into single application. Pipeline consists of nodes. Every node can have input and output dataset. Inside node transformation are performed. 
+All the datasets can be accessed in our project as soon as they are included in the configuration file which can be described as a registry of the datasets in use. The main idea of Kedro is to orchestrate the DE (data engineering) and DS (data science) pipeline into single application. Pipeline consists of nodes. Every node can have input and output dataset. Inside node transformation are performed.
 
-In the app that I describe in this post kedro pipeline was used to retrain the model once new data flow. 
-Single observation is evaluated from the app by several ML models. 
+In the app that I describe in this post kedro pipeline was used to retrain the model once new data flow.
+Single observation is evaluated from the app by several ML models.
 
 ![Add new text](./add-new-text.png)
 
@@ -38,7 +38,7 @@ towards, Sentiment and Target.
 
 ![Add new text, stance evaluated](./add-new-text-evaluated.png)
 
-The retrain button is used for model fine-tuning once new stances are added to the dataset. 
+The retrain button is used for model fine-tuning once new stances are added to the dataset.
 
 ![Kedro model retrain](./retrain-kedro.png)
 
@@ -46,7 +46,7 @@ What is very convenient as well is the pipeline abstraction due to Kedro-Viz pip
 
 ![Kedro model](./model.png)
 
-Data science part of this application I already described - providing a machine-learning solution for a problem of stance detection. 
+Data science part of this application I already described - providing a machine-learning solution for a problem of stance detection.
 The other requirement of this bachelor thesis was to  build a modern web application with
 rendered front-end as well as defining REST Api for other contributors to this project.
 

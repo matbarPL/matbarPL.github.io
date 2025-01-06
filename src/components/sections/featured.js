@@ -323,7 +323,7 @@ const Featured = () => {
               github
               external
               youtube
-              pensieve
+              blog
             }
             html
           }
@@ -356,7 +356,7 @@ const Featured = () => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover, cta, youtube, pensieve} = frontmatter;
+            const { external, title, tech, github, cover, cta, youtube, blog } = frontmatter;
             const image = getImage(cover);
 
             return (
@@ -366,7 +366,9 @@ const Featured = () => {
                     <p className="project-overline">Featured Project</p>
 
                     <h3 className="project-title">
-                      <a href={pensieve ? pensieve: external ? external : github ? github : '#'}>{title}</a>
+                      <a href={blog ? blog : external ? external : github ? github : '#'}>
+                        {title}
+                      </a>
                     </h3>
 
                     <div
@@ -408,7 +410,7 @@ const Featured = () => {
                 </div>
 
                 <div className="project-image">
-                  <a href={pensieve ? pensieve: external ? external : github ? github : '#'}>
+                  <a href={blog ? blog : external ? external : github ? github : '#'}>
                     <GatsbyImage image={image} alt={title} className="img" />
                   </a>
                 </div>

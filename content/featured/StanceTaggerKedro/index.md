@@ -3,11 +3,11 @@ date: '2020-06-30'
 cover: './demo.png'
 title: 'A tool for opinion extraction from texts'
 github: 'https://github.com/matbarPL/stance-tagger-kedro'
-pensieve: /pensieve/stance-tagger-kedro
+blog: /blog/stance-tagger-kedro
 tech:
   - python
   - fasttext
-  - scikit-learn  
+  - scikit-learn
   - React
 company: 'WUST'
 showInProjects: true
