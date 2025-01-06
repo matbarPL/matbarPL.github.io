@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-tag-js",
-    "path": "/pensieve/tags/recommender-systems/",
-    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"frontmatter":{"title":"Recommender system for YELP users","description":"We built a web application to recommend businesses to YELP users, leveraging various algorithms for user selection.","date":"2019-02-06T00:00:00.000Z","slug":"/pensieve/recommender-system-for-yelp-users","tags":["recommender-systems"]}}}]}},"pageContext":{"tag":"recommender-systems"}},
-    "staticQueryHashes": ["1994492073","2951132156","3185194994","3972464533"]}

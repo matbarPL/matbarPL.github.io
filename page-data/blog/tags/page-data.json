@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-blog-tags-js",
+    "path": "/blog/tags/",
+    "result": {"data":{"allMarkdownRemark":{"group":[{"fieldValue":"cnn","totalCount":1},{"fieldValue":"nlp","totalCount":1},{"fieldValue":"recommender-systems","totalCount":1}]}},"pageContext":{}},
+    "staticQueryHashes": ["1992430683","1994492073","2951132156","3720418100","3972464533"]}

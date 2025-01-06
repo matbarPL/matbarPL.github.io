@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tag-js",
+    "path": "/blog/tags/cnn/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"frontmatter":{"title":"What is this fruit? Deep learning application for Vietnamese fruit recognition.","description":"We developed a deep learning application to help identify Vietnamese fruits.","date":"2018-05-04T00:00:00.000Z","slug":"/blog/what-is-this-fruit","tags":["cnn"]}}}]}},"pageContext":{"tag":"cnn"}},
+    "staticQueryHashes": ["1992430683","1994492073","2951132156","3720418100","3972464533"]}

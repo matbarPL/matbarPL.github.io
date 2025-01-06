@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tag-js",
+    "path": "/blog/tags/nlp/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"frontmatter":{"title":"A tool for opinion extraction from texts","description":"We created a web application to extract opinions from text using natural language processing techniques.","date":"2020-06-30T00:00:00.000Z","slug":"/blog/stance-tagger-kedro","tags":["nlp"]}}}]}},"pageContext":{"tag":"nlp"}},
+    "staticQueryHashes": ["1992430683","1994492073","2951132156","3720418100","3972464533"]}

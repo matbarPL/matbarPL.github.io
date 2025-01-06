@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-pages-pensieve-tags-js",
-    "path": "/pensieve/tags/",
-    "result": {"data":{"allMarkdownRemark":{"group":[{"fieldValue":"cnn","totalCount":1},{"fieldValue":"nlp","totalCount":1},{"fieldValue":"recommender-systems","totalCount":1}]}},"pageContext":{}},
-    "staticQueryHashes": ["1994492073","2951132156","3185194994","3972464533"]}
