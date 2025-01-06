@@ -3,7 +3,7 @@ title: What is this fruit? Deep learning application for Vietnamese fruit recogn
 description: We developed a deep learning application to help identify Vietnamese fruits.
 date: 2018-05-04
 draft: false
-slug: /pensieve/what-is-this-fruit
+slug: /blog/what-is-this-fruit
 tags:
   - cnn
 ---

@@ -4,7 +4,7 @@ cover: './demo.png'
 title: 'Recommender System for YELP users'
 github: 'https://github.com/matbarPL/Recommender-system-for-yelp.com-users'
 youtube: 'https://www.youtube.com/watch?v=tKwbLZ40nag'
-pensieve: /pensieve/recommender-system-for-yelp-users
+blog: /blog/recommender-system-for-yelp-users
 tech:
   - python
   - pandas

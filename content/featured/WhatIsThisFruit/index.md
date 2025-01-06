@@ -4,11 +4,11 @@ cover: './demo.png'
 title: 'What is this fruit? Deep learning application for Vietnamese fruit recognition.'
 external: 'https://www.itm-conferences.org/articles/itmconf/abs/2018/05/itmconf_icm2018_02009/itmconf_icm2018_02009.html'
 youtube: 'https://youtu.be/MRP2OjZHOi8?si=1teaE6cksmZ2vN9r'
-pensieve: /pensieve/what-is-this-fruit
+blog: /blog/what-is-this-fruit
 tech:
   - python
   - keras
-  - flask  
+  - flask
   - HTML
   - CSS
   - JavaScript
