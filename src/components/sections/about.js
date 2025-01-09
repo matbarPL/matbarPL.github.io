@@ -93,22 +93,34 @@ const About = () => {
             <p>
               I am your partner in harnessing the power of data. By treating data as a valuable
               resource rather than just numbers, opportunities are unlocked to make informed
-              decisions and achieve strategic goals.
+              decisions and achieve strategic goals. My strong mathematical foundation, and
+              experience across diverse industries, functions and geographies enable me to deliver
+              unique, high-impact data solutions.
             </p>
           </div>
           <ul className="skills-list">
             <li>
-              Custom software solutions for data analysis, visualization and AI-powered tools.
+              Designing and implementing efficient ETL pipelines, feature engineering processes and
+              automated monitoring systems to ensure data quality and reproducibility.
             </li>
             <li>
-              Data strategy development, technology identification and data workflow optimization.
+              Driving end-to-end impact by aligning business goals with technical solutions,
+              delivering actionable insights and ensuring successful deployment of data products.
             </li>
             <li>
-              Data processing expertise including cleaning, organizing and extracting insights.
+              Leveraging cross-industry and international experience to develop adaptable,
+              high-impact data solutions.
             </li>
             <li>
-              Machine learning API integration for web portals to enhance user experiences and
-              extract valuable data.
+              Enhancing model performance using advanced techniques such as grid search, Bayesian
+              optimization and domain-specific feature extraction.
+            </li>
+            <li>
+              Effectively communicating complex ML models and algorithms through presentations
+              tailored to the audience.
+            </li>
+            <li>
+              Building scalable machine learning models to solve real-world business problems.
             </li>
           </ul>
         </StyledText>
@@ -127,6 +139,14 @@ const About = () => {
             <li>UK</li>
             <li>France</li>
             <li>Poland</li>
+            <li>South Africa</li>
+          </ul>
+          <h3>Functions</h3>
+          <ul>
+            <li>IT</li>
+            <li>BI</li>
+            <li>Finance</li>
+            <li>Operations</li>
           </ul>
         </StyledIndustries>
       </div>
